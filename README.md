@@ -20,16 +20,16 @@ podcastHostInfo('https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/rss
 //=> [
 		{
 		  "name": "Podtrac",
-		    "abilities": [
-		      "tracking",
-		      "stats"
-		    ]
+		   "abilities": [
+		     "tracking",
+		     "stats"
+		   ]
 		},
 		{
 		  "name": "Chartable",
-		    "abilities": [
-		      "stats"
-		  ]
+		   "abilities": [
+		     "stats"
+		   ]
 		},
 		{
 		  "name": "Art19",
