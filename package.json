@@ -1,0 +1,16 @@
+{
+  "name": "podcast-host-info",
+  "version": "0.0.1",
+  "description": "Get information about tracking, stats collection, and advertising for podcast hosting providers.",
+  "license": "MIT",
+  "repository": "fancysoups/podcast-host-info",
+  "main": "index.js",
+  "keywords": [
+    "podcast",
+    "privacy",
+    "advertising"
+  ],
+  "scripts": {
+    "test": "mocha"
+  }
+}
