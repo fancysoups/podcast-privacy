@@ -14,9 +14,9 @@ $ npm install podcast-host-info
 ## Usage
 
 ```js
-const getPodcastHostInfoForEpisodeURL = require('podcast-host-info');
+const podcastHostInfo = require('podcast-host-info');
 
-getPodcastHostInfoForEpisodeURL('https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/rss.art19.com/episodes/16fe0959-f7e9-40f0-b7c6-8a8c53d4fe73.mp3');
+podcastHostInfo('https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/rss.art19.com/episodes/16fe0959-f7e9-40f0-b7c6-8a8c53d4fe73.mp3');
 //=> [
 		{
 		  "name": "Podtrac",
