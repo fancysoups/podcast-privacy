@@ -93,7 +93,7 @@ const podcastHostData = {
   },
 };
 
-function podcastHostInfo(url) {
+function podcastPrivacyInfo(url) {
   if (!url || typeof url != 'string')
     throw new Error('Invalid or missing url.');
   return Object.keys(podcastHostData)
@@ -101,4 +101,4 @@ function podcastHostInfo(url) {
     .map(key => podcastHostData[key]);
 }
 
-module.exports = podcastHostInfo;
+module.exports = podcastPrivacyInfo;
