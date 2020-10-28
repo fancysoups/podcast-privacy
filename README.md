@@ -3,7 +3,7 @@
 [![npm (scoped)](https://img.shields.io/npm/v/podcast-privacy.svg)](https://www.npmjs.com/package/podcast-privacy)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/podcast-privacy.svg)](https://www.npmjs.com/package/podcast-privacy)
 
-Get information about tracking, stats collection, and advertising for podcast hosting providers from an episode's URL.
+Get information about tracking, stats collection, and advertising for podcast hosting providers.
 
 ## Install
 
