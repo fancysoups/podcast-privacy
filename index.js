@@ -12,7 +12,7 @@ const podcastHostData = {
   },
   'pdst.fm': {
     name: 'Podsights',
-    abilities: [abilities.TRACKING],
+    abilities: [abilities.STATS, abilities.TRACKING],
     privacyPolicyURL: 'https://podsights.com/privacy/',
   },
   'chtbl.com': {
@@ -41,7 +41,11 @@ const podcastHostData = {
   },
   'megaphone.fm': {
     name: 'Megaphone',
-    abilities: [abilities.TRACKING, abilities.DYNAMIC_ADVERTISING],
+    abilities: [
+      abilities.STATS,
+      abilities.TRACKING,
+      abilities.DYNAMIC_ADVERTISING,
+    ],
     privacyPolicyURL: 'https://www.megaphone.fm/terms/privacy',
   },
   'soundcloud.com': {
@@ -71,17 +75,29 @@ const podcastHostData = {
   },
   'npr.org': {
     name: 'NPR',
-    abilities: [abilities.TRACKING, abilities.DYNAMIC_ADVERTISING],
+    abilities: [
+      abilities.STATS,
+      abilities.TRACKING,
+      abilities.DYNAMIC_ADVERTISING,
+    ],
     privacyPolicyURL: 'https://www.npr.org/about-npr/179878450/privacy-policy',
   },
   'anchor.fm': {
     name: 'Anchor (from Spotify)',
-    abilities: [abilities.TRACKING, abilities.DYNAMIC_ADVERTISING],
+    abilities: [
+      abilities.STATS,
+      abilities.TRACKING,
+      abilities.DYNAMIC_ADVERTISING,
+    ],
     privacyPolicyURL: 'https://anchor.fm/privacy',
   },
   'omny.fm': {
     name: 'Omny',
-    abilities: [abilities.TRACKING, abilities.DYNAMIC_ADVERTISING],
+    abilities: [
+      abilities.STATS,
+      abilities.TRACKING,
+      abilities.DYNAMIC_ADVERTISING,
+    ],
     privacyPolicyURL: 'https://omnystudio.com/policies/listener',
   },
   'feedproxy.google.com': {
@@ -91,12 +107,20 @@ const podcastHostData = {
   },
   'noxsolutions.com': {
     name: 'Nox Solutions',
-    abilities: [abilities.TRACKING, abilities.DYNAMIC_ADVERTISING],
+    abilities: [
+      abilities.STATS,
+      abilities.TRACKING,
+      abilities.DYNAMIC_ADVERTISING,
+    ],
     privacyPolicyURL: 'https://www.noxsolutions.com/',
   },
   'acast.com': {
     name: 'Acast',
-    abilities: [abilities.TRACKING, abilities.DYNAMIC_ADVERTISING],
+    abilities: [
+      abilities.STATS,
+      abilities.TRACKING,
+      abilities.DYNAMIC_ADVERTISING,
+    ],
     privacyPolicyURL: 'https://www.acast.com/en/privacy',
   },
   'podomatic.com': {
@@ -141,12 +165,20 @@ const podcastHostData = {
   },
   'podigee.com': {
     name: 'Podigee',
-    abilities: [abilities.TRACKING, abilities.DYNAMIC_ADVERTISING],
+    abilities: [
+      abilities.STATS,
+      abilities.TRACKING,
+      abilities.DYNAMIC_ADVERTISING,
+    ],
     privacyPolicyURL: 'https://www.podigee.com/en/about/privacy',
   },
   'castfire.com': {
     name: 'WideOrbit',
-    abilities: [abilities.TRACKING, abilities.DYNAMIC_ADVERTISING],
+    abilities: [
+      abilities.STATS,
+      abilities.TRACKING,
+      abilities.DYNAMIC_ADVERTISING,
+    ],
     privacyPolicyURL: 'https://www.wideorbit.com/privacy/',
   },
   'redcircle.com': {
@@ -157,6 +189,11 @@ const podcastHostData = {
       abilities.DYNAMIC_ADVERTISING,
     ],
     privacyPolicyURL: 'https://redcircle.com/privacy',
+  },
+  'podserve.fm': {
+    name: 'Podserve',
+    abilities: [abilities.STATS],
+    privacyPolicyURL: 'https://www.podserve.fm/privacy/',
   },
 };
 
