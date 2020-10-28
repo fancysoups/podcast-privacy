@@ -51,6 +51,11 @@ const podcastHostData = {
     abilities: [abilities.HOSTING, abilities.STATS],
     privacyPolicyURL: 'https://simplecast.com/privacy/',
   },
+  'cdn.simplecast.com': {
+    name: 'Simplecast',
+    abilities: [abilities.HOSTING, abilities.STATS],
+    privacyPolicyURL: 'https://simplecast.com/privacy/',
+  },
   'transistor.fm': {
     name: 'Transistor.fm',
     abilities: [abilities.HOSTING, abilities.STATS],
