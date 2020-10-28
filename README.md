@@ -14,28 +14,38 @@ $ npm install podcast-privacy
 ## Usage
 
 ```js
-const podcastPrivacyInfo = require('podcast-privacy');
+const podcastPrivacy = require('podcast-privacy');
 
-podcastPrivacyInfo('https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/rss.art19.com/episodes/16fe0959-f7e9-40f0-b7c6-8a8c53d4fe73.mp3');
-//=> [
+podcastPrivacy('https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/rss.art19.com/episodes/16fe0959-f7e9-40f0-b7c6-8a8c53d4fe73.mp3');
+/*
+	[
 		{
-		  "name": "Podtrac",
-		   "abilities": [
-		     "tracking",
-		     "stats"
-		   ]
+			name: 'Podtrac',
+			abilities: [ 'Stats' ],
+			privacyPolicyURL: 'http://analytics.podtrac.com/consumer-privacy-policy'
 		},
 		{
-		  "name": "Chartable",
-		   "abilities": [
-		     "stats"
-		   ]
+			name: 'Chartable',
+			abilities: [ 'Tracking', 'Stats' ],
+			privacyPolicyURL: 'https://chartable.com/privacy'
 		},
 		{
-		  "name": "Art19",
-		  "abilities": [
-		    "hosting"
-		  ]
+			name: 'Art19',
+			abilities: [ 'Advertising', 'Tracking', 'Hosting' ],
+			privacyPolicyURL: 'https://art19.com/privacy'
 		}
 	]
+/*
 ```
+
+## Hosted API
+
+podcast-privacy is also available as a JSON api. [Register for a free API key here.](https://podcast-privacy.com/register)
+
+## Special Thanks
+
+Special thanks to [Marco Arment](https://marco.org) and his work on [Overcast](https://overcast.fm) for leading the charge on increasing transparency for listeners.
+
+## Contributing
+
+This package is maintained by the creators of [Podbay](https://podbay.fm). To add or change information in the package, you can open a pull request, file an issue, or email us at help@podbay.fm.

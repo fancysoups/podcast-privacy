@@ -1,6 +1,6 @@
 {
   "name": "podcast-privacy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get information about tracking, stats collection, and advertising for podcast hosting providers.",
   "license": "MIT",
   "repository": "fancysoups/podcast-privacy",

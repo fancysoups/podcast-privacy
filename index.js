@@ -91,6 +91,66 @@ const podcastHostData = {
     abilities: [abilities.ADVERTISING, abilities.TRACKING, abilities.HOSTING],
     privacyPolicyURL: 'https://www.acast.com/en/privacy',
   },
+  'podomatic.com': {
+    name: 'Podomatic',
+    abilities: [abilities.STATS, abilities.HOSTING],
+    privacyPolicyURL: 'https://www.podomatic.com/about/privacy',
+  },
+  'blubrry.com': {
+    name: 'Blubrry',
+    abilities: [abilities.STATS, abilities.HOSTING],
+    privacyPolicyURL: 'https://blubrry.com/about/privacy-policy/',
+  },
+  'fireside.fm': {
+    name: 'Fireside',
+    abilities: [abilities.STATS, abilities.HOSTING],
+    privacyPolicyURL: 'https://fireside.fm/privacy',
+  },
+  'pdcn.co': {
+    name: 'Podcorn',
+    abilities: [abilities.STATS],
+    privacyPolicyURL: 'https://podcorn.com/privacy/',
+  },
+  'audioboom.com': {
+    name: 'Audioboom',
+    abilities: [abilities.ADVERTISING, abilities.STATS, abilities.HOSTING],
+    privacyPolicyURL: 'https://audioboom.com/about/privacy',
+  },
+  'spreaker.com': {
+    name: 'Spreaker',
+    abilities: [abilities.STATS, abilities.HOSTING],
+    privacyPolicyURL: 'https://www.spreaker.com/privacy',
+  },
+  'buzzsprout.com': {
+    name: 'Buzzsprout',
+    abilities: [abilities.STATS, abilities.HOSTING],
+    privacyPolicyURL: 'https://www.buzzsprout.com/privacy',
+  },
+  'captivate.fm': {
+    name: 'Captivate',
+    abilities: [abilities.STATS, abilities.HOSTING],
+    privacyPolicyURL: 'https://www.captivate.fm/privacy-policy-for-listeners/',
+  },
+  'podigee.com': {
+    name: 'Podigee',
+    abilities: [abilities.ADVERTISING, abilities.TRACKING, abilities.HOSTING],
+    privacyPolicyURL: 'https://www.podigee.com/en/about/privacy',
+  },
+  'castfire.com': {
+    name: 'WideOrbit',
+    abilities: [abilities.ADVERTISING, abilities.TRACKING, abilities.HOSTING],
+    privacyPolicyURL: 'https://www.wideorbit.com/privacy/',
+  },
+  'redcircle.com': {
+    name: 'RedCircle',
+    abilities: [
+      abilities.ADVERTISING,
+      abilities.STATS,
+      abilities.TRACKING,
+      abilities.HOSTING,
+    ],
+    privacyPolicyURL: 'https://redcircle.com/privacy',
+  },
 };
 
 function podcastPrivacyInfo(url) {
