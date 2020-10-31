@@ -58,11 +58,6 @@ const podcastHostData = {
     abilities: [abilities.STATS],
     privacyPolicyURL: 'https://simplecast.com/privacy/',
   },
-  'cdn.simplecast.com': {
-    name: 'Simplecast',
-    abilities: [abilities.STATS],
-    privacyPolicyURL: 'https://simplecast.com/privacy/',
-  },
   'transistor.fm': {
     name: 'Transistor.fm',
     abilities: [abilities.STATS],
@@ -70,7 +65,7 @@ const podcastHostData = {
   },
   'traffic.libsyn.com': {
     name: 'Libsyn',
-    abilities: [abilities.STATS],
+    abilities: [abilities.STATS],abilities.DYNAMIC_ADVERTISING,
     privacyPolicyURL: 'https://libsyn.com/tos-policies/privacy-policy/',
   },
   'npr.org': {
@@ -130,7 +125,7 @@ const podcastHostData = {
   },
   'blubrry.com': {
     name: 'Blubrry',
-    abilities: [abilities.STATS],
+    abilities: [abilities.STATS, abilities.DYNAMIC_ADVERTISING],
     privacyPolicyURL: 'https://blubrry.com/about/privacy-policy/',
   },
   'fireside.fm': {
@@ -160,7 +155,7 @@ const podcastHostData = {
   },
   'captivate.fm': {
     name: 'Captivate',
-    abilities: [abilities.STATS],
+    abilities: [abilities.STATS, abilities.DYNAMIC_ADVERTISING],
     privacyPolicyURL: 'https://www.captivate.fm/privacy-policy-for-listeners/',
   },
   'podigee.com': {
