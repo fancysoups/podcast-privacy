@@ -3,7 +3,7 @@
 [![npm (scoped)](https://img.shields.io/npm/v/podcast-privacy.svg)](https://www.npmjs.com/package/podcast-privacy)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/podcast-privacy.svg)](https://www.npmjs.com/package/podcast-privacy)
 
-Get information about tracking, stats collection, and dynamic advertising for podcasts.
+Get information about tracking, stats collection, and dynamic audio for podcasts.
 
 ## Install
 
@@ -31,8 +31,9 @@ podcastPrivacy('https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/rss.
 		},
 		{
 			name: 'Art19',
-			abilities: [ 'Stats', 'Tracking', 'Dynamic Advertising' ],
-			privacyPolicyURL: 'https://art19.com/privacy'
+			abilities: [ 'Stats', 'Tracking', 'Dynamic Audio' ],
+			privacyPolicyURL: 'https://art19.com/privacy',
+			logoURL: 'https://cdn.podcast-privacy.com/logos/art19.png'
 		}
 	]
 /*
