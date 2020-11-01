@@ -1,7 +1,25 @@
 const assert = require('assert');
 const podcastPrivacyInfo = require('../index.js');
+const { podcastHostData, abilities } = require('../data/podcast-hosts');
 
-describe('podcastPrivacyInfo', function () {
+describe('podcast-privacy', function () {
+  describe('Data is valid', function () {
+    const invalidAbilities = Object.values(podcastHostData).filter(
+      host =>
+        host.abilities.filter(
+          ability => !Object.values(abilities).includes(ability)
+        ).length > 0
+    );
+    const invalidNames = Object.keys(podcastHostData).filter(
+      name => !name.length || !name.includes('.')
+    );
+    it('has no invalid abilities values', function () {
+      assert.equal(invalidAbilities.length, 0);
+    });
+    it('has no invalid names', function () {
+      assert.equal(invalidNames.length, 0);
+    });
+  });
   describe('Example URL #1', function () {
     const data = podcastPrivacyInfo(
       'https://dts.podtrac.com/redirect.mp3/chtbl.com/track/8DB4DB/rss.art19.com/episodes/16fe0959-f7e9-40f0-b7c6-8a8c53d4fe73.mp3'
