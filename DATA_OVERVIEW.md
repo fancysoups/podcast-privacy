@@ -6,15 +6,15 @@ An overview of host data showing what's complete and incomplete in the current b
 | --- | --- | --- | --- | --- |
 | abc.net.au | ABC Australia | ✅ | ✅ | ✅ |
 | acast.com | Acast | ✅ | ✅ | ✅ |
-| pippa.io | Acast Open | ✅ | ✅ | ❌ |
-| publicradio.org | American Public Media | ✅ | ✅ | ❌ |
+| pippa.io | Acast Open | ✅ | ✅ | ✅ |
+| publicradio.org | American Public Media | ✅ | ✅ | ✅ |
 | anchor.fm | Anchor (from Spotify) | ✅ | ✅ | ✅ |
 | art19.com | Art19 | ✅ | ✅ | ✅ |
 | audioboom.com | Audioboom | ✅ | ✅ | ✅ |
 | ausha.co | Ausha | ✅ | ✅ | ✅ |
 | awesound.com | Awesound | ✅ | ✅ | ✅ |
 | backtracks.fm | Backtracks | ✅ | ✅ | ✅ |
-| timlradio.co.uk | Bauer Media Group | ✅ | ✅ | ❌ |
+| timlradio.co.uk | Bauer Media Group | ✅ | ✅ | ✅ |
 | bbc.co.uk | BBC | ✅ | ✅ | ✅ |
 | media.bcast.fm | bCast | ✅ | ✅ | ✅ |
 | blogtalkradio.com | Blog Talk Radio | ✅ | ✅ | ✅ |
@@ -37,7 +37,7 @@ An overview of host data showing what's complete and incomplete in the current b
 | freecaster.net | Freecaster | ❌ | ✅ | ✅ |
 | .hipcast.com | Hipcast | ❌ | ✅ | ✅ |
 | www.ivoox.com | iVoox | ❌ | ✅ | ✅ |
-| media.adknit.com | knit | ❌ | ❌ | ❌ |
+| media.adknit.com | knit | ❌ | ❌ | ✅ |
 | media.kuku.ee | Kuku | ❌ | ❌ | ✅ |
 | leanstream.co/ | leanStream | ❌ | ✅ | ✅ |
 | traffic.libsyn.com | Libsyn | ✅ | ✅ | ✅ |
@@ -47,7 +47,7 @@ An overview of host data showing what's complete and incomplete in the current b
 | noxsolutions.com | Nox Solutions | ✅ | ✅ | ✅ |
 | npr.org | NPR | ✅ | ✅ | ✅ |
 | pod.npr.org | NPR | ✅ | ✅ | ✅ |
-| nrjaudio.fm | NRJ-Group | ❌ | ✅ | ❌ |
+| nrjaudio.fm | NRJ-Group | ❌ | ✅ | ✅ |
 | omny.fm | Omny | ✅ | ✅ | ✅ |
 | omnystudio.com | Omny Studio | ✅ | ✅ | ✅ |
 | pinecast.com/listen | Pinecast | ✅ | ❌ | ✅ |

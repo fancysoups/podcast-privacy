@@ -171,11 +171,13 @@ const podcastHostData = {
     name: 'Acast Open',
     privacyPolicyURL: 'https://www.acast.com/en/privacy',
     abilities: [abilities.STATS, abilities.TRACKING, abilities.DYNAMIC_AUDIO],
+    logoURL: 'https://cdn.podcast-privacy.com/logos/acast-open.png',
   },
   'publicradio.org': {
     name: 'American Public Media',
     privacyPolicyURL: 'https://www.americanpublicmedia.org/privacy/',
     abilities: [abilities.STATS],
+    logoURL: 'https://cdn.podcast-privacy.com/logos/american-public-media.png',
   },
   'ausha.co': {
     name: 'Ausha',
@@ -199,6 +201,7 @@ const podcastHostData = {
     name: 'Bauer Media Group',
     privacyPolicyURL: 'https://www.bauerlegal.co.uk/privacy-policy-20180703',
     abilities: [abilities.STATS],
+    logoURL: 'https://cdn.podcast-privacy.com/logos/bauer-media-group.png',
   },
   'bbc.co.uk': {
     name: 'BBC',
@@ -300,7 +303,12 @@ const podcastHostData = {
     abilities: [],
     logoURL: 'https://cdn.podcast-privacy.com/logos/ivoox.png',
   },
-  'media.adknit.com': { name: 'knit', privacyPolicyURL: '', abilities: [] },
+  'media.adknit.com': {
+    name: 'knit',
+    privacyPolicyURL: '',
+    abilities: [],
+    logoURL: 'https://cdn.podcast-privacy.com/logos/knit.png',
+  },
   'media.kuku.ee': {
     name: 'Kuku',
     privacyPolicyURL: '',
@@ -335,6 +343,7 @@ const podcastHostData = {
     name: 'NRJ-Group',
     privacyPolicyURL: 'https://www.nrjgroup.fr/politique-de-confidentialite/',
     abilities: [],
+    logoURL: 'https://cdn.podcast-privacy.com/logos/nrj-group.png',
   },
   'omnystudio.com': {
     name: 'Omny Studio',

@@ -1,6 +1,6 @@
 {
   "name": "podcast-privacy",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Get information about tracking, stats collection, and dynamic audio for podcasts.",
   "license": "MIT",
   "repository": "fancysoups/podcast-privacy",
